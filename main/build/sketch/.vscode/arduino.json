@@ -1,0 +1,6 @@
+#line 1 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\.vscode\\arduino.json"
+{
+    "sketch": "main.ino",
+    "output": "build",
+    "board": "arduino:avr:uno"
+}
