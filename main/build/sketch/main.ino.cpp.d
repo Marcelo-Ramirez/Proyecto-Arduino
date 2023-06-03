@@ -10,4 +10,9 @@ D:\Mis\ proyectos\C++\Arduino\Proyecto\main\build\sketch\main.ino.cpp.o: \
  C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Printable.h \
  C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
- C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h
+ C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
+ D:\Mis\ proyectos\C++\Arduino\Proyecto\main\build\sketch\src/Sproximidad/proximidad.h \
+ D:\Mis\ proyectos\C++\Arduino\Proyecto\main\build\sketch\src/Shumedad/humedad.h \
+ D:\Mis\ proyectos\C++\Arduino\Proyecto\main\build\sketch\src/Lcd/lcd.h \
+ D:\Mis\ proyectos\C++\Arduino\Proyecto\main\build\sketch\src/Lcd/LiquidCrystal.h \
+ C:\Users\ramir\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h

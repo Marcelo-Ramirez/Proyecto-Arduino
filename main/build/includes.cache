@@ -13,5 +13,25 @@
     "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\main.ino.cpp",
     "Include": "",
     "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\LiquidCrystal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\lcd.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Shumedad\\humedad.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sproximidad\\proximidad.cpp",
+    "Include": "",
+    "Includepath": null
   }
 ]

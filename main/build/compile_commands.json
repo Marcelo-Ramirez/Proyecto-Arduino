@@ -53,11 +53,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\lcd.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\lcd.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
+  "file": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\lcd.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -83,11 +83,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Shumedad\\humedad.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial3.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Shumedad\\humedad.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp"
+  "file": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Shumedad\\humedad.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -113,11 +113,41 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\LiquidCrystal.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\CDC.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\LiquidCrystal.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
+  "file": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\LiquidCrystal.cpp"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sproximidad\\proximidad.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sproximidad\\proximidad.cpp.o"
+  ],
+  "file": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sproximidad\\proximidad.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -173,11 +203,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial0.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\CDC.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -233,11 +263,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial2.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial3.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -263,11 +293,68 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\IPAddress.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial2.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\WInterrupts.c.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial.cpp.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -323,11 +410,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\Tone.cpp.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\WMath.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -383,71 +470,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
-   "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\Stream.cpp.o"
-  ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
- },
- {
-  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
-  "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
    "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp",
    "-o",
    "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\WString.cpp.o"
   ],
   "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp"
- },
- {
-  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
-  "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
-   "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\WMath.cpp.o"
-  ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -509,17 +536,20 @@
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
   "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
    "-w",
-   "-std=gnu11",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
    "-ffunction-sections",
    "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
    "-MMD",
    "-flto",
-   "-fno-fat-lto-objects",
    "-mmcu=atmega328p",
    "-DF_CPU=16000000L",
    "-DARDUINO=10607",
@@ -527,61 +557,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_digital.c.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\IPAddress.cpp.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
- },
- {
-  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
-  "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
-   "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\WInterrupts.c.o"
-  ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
- },
- {
-  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
-  "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-x",
-   "assembler-with-cpp",
-   "-flto",
-   "-MMD",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
-   "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_pulse.S.o"
-  ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -612,36 +592,6 @@
    "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\new.cpp.o"
   ],
   "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp"
- },
- {
-  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
-  "arguments": [
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
-   "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\main.cpp.o"
-  ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -703,6 +653,59 @@
    "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
+   "-x",
+   "assembler-with-cpp",
+   "-flto",
+   "-MMD",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_pulse.S.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\HardwareSerial0.cpp.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
    "-Os",
    "-w",
    "-std=gnu11",
@@ -718,11 +721,71 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
    "-o",
-   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_shift.c.o"
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_digital.c.o"
   ],
-  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c"
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\Stream.cpp.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\Tone.cpp.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
  },
  {
   "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
@@ -750,5 +813,62 @@
    "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_pulse.c.o"
   ],
   "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\wiring_shift.c.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c"
+ },
+ {
+  "directory": "d:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main",
+  "arguments": [
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
+   "-o",
+   "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\core\\main.cpp.o"
+  ],
+  "file": "C:\\Users\\ramir\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
  }
 ]
