@@ -25,12 +25,122 @@
     "Includepath": null
   },
   {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "Servo.h",
+    "Includepath": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src"
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\mbed\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\renesas\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\Servo\\src\\stm32f4\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Mservo\\servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sboton\\boton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
     "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Shumedad\\humedad.cpp",
     "Include": "",
     "Includepath": null
   },
   {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Spresencia\\presencia.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
     "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Sproximidad\\proximidad.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Stemperatura\\DHTesp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Stemperatura\\temperatura.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\renesas\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ramir\\OneDrive\\Documentos\\Arduino\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
     "Include": "",
     "Includepath": null
   }
