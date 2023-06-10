@@ -3,12 +3,43 @@
 
 LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
 
-void setupLCD() {
+byte degreeSymbol[8] = {
+    B00111,
+    B00101,
+    B00111,
+    B00000,
+    B00000,
+    B00000,
+    B00000,
+    B00000};
+
+void setupLCD()
+{
   lcd.begin(16, 2);
-  lcd.clear();
+  lcd.createChar(0, degreeSymbol);
 }
 
-void mostrarTextoLCD(const char* texto, int columna, int fila) {
-  lcd.setCursor(columna, fila);
-  lcd.print(texto);
+void sensoresLCD(int agua, int humedad, int temperatura)
+{
+
+  lcd.setCursor(0, 0);
+  lcd.print("Agua: Hume: Tem:");
+  lcd.setCursor(0, 1);
+  lcd.print("   %     %    ");
+  lcd.write(byte(0));
+  lcd.print("C");
+  lcd.setCursor(0, 1);
+  lcd.print("   ");
+  lcd.setCursor(0, 1);
+  lcd.print(agua);
+  lcd.setCursor(6, 1);
+  lcd.print("   ");
+  lcd.setCursor(6, 1);
+  lcd.print(humedad);
+  lcd.setCursor(12, 1);
+  lcd.print("  ");
+  lcd.setCursor(12, 1);
+  lcd.print(temperatura);
+
+  delay(1000);
 }

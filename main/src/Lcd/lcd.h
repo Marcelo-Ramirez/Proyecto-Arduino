@@ -7,6 +7,8 @@
 extern LiquidCrystal lcd;
 
 void setupLCD();
-void mostrarTextoLCD(const char* texto, int columna, int fila);
+void nivelAgua(int porcentage);
+void nivelTemperatura(int nivel);
+void nivelHumedad(int porcentage);
 
 #endif

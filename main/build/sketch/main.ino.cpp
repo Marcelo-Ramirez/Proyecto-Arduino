@@ -1,38 +1,98 @@
 #include <Arduino.h>
 #line 1 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
-#include "src/Sproximidad/proximidad.h"
-#include "src/Shumedad/humedad.h"
-#include "src/Stemperatura/temperatura.h"
-#include "src/Spresencia/presencia.h"
+// SENSORES (INPUTS)
+#include "src/INPUTS/Sproximidad/proximidad.h"
+#include "src/INPUTS/Shumedad/humedad.h"
+#include "src/INPUTS/Stemperatura/temperatura.h"
+#include "src/INPUTS/Spresencia/presencia.h"
+#include "src/INPUTS/Sboton/boton.h"
+
+// MOTORES (OUTPUTS)
+#include "src/OUTPUTS/Mservo/servoControl.h"
+#include "src/OUTPUTS/Magua/agua.h"
+#include "src/OUTPUTS/Mventilador/ventilador.h"
+
+// PANTALLA LCD
 #include "src/Lcd/lcd.h"
-#include "src/Mservo/servo.h"
 
+// SONIDO
+#include "src/OUTPUTS/Sonido/sonido.h"
 
+int cont = 0;
 
-#line 10 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
+#line 21 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
 void setup();
-#line 26 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
+#line 45 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
 void loop();
-#line 10 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
+#line 21 "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\main.ino"
 void setup()
 {
-    //SENSORES
+
+    // SENSORES
     setupTemperatura();
-    setupLCD();
     setupHumedad();
     setupProximidad();
     setupPresencia();
+    setupBoton();
 
-    //MOTORES
+    // MOTORES
     setupServo();
+    setupAgua();
+    setupVentilador();
 
+    // PANTALLA
+    setupLCD();
+
+    // SONIDO
+    setupSonido();
 
     Serial.begin(9600);
 }
 
 void loop()
 {
-    delay(1000);
-    Serial.println(distanceProx());
+    // SENSORES
+    int agua = distanceProx();
+    int humedad = porcentageHumedad();
+    int temperatura = gradosTemperatura();
+    boolean detecPresen = detecPresencia();
+    boolean botonActiv = botonActivado();
+
+    // SERVO
+    int anguloActu = anguloActual();
+
+    // MOTOR AGUA
+    if (humedad < 50 && agua < 15)
+    {
+        // MOTOR AGUA
+        aguaActivado();
+    }
+
+    if (temperatura > 30)
+    {
+        if (detecPresen == true && cont < 4)
+        {
+            cont++;
+        }
+
+        sonidoActivado();
+        // MOTOR SERVO
+        if (temperatura > 30 && anguloActu == 0)
+        {
+            // MOTOR SERVO
+            moverServo0_180();
+        }
+
+        // MOTOR VENTILADOR
+        if (cont == 4 && temperatura > 30)
+        {
+            // MOTOR VENTILADOR
+            ventiActivado();
+        }
+    }
+    else
+    {
+        cont = 0;
+    } 
 }
 
