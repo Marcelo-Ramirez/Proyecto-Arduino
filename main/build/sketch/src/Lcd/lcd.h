@@ -8,8 +8,9 @@
 extern LiquidCrystal lcd;
 
 void setupLCD();
-void nivelAgua(int porcentage);
-void nivelTemperatura(int nivel);
-void nivelHumedad(int porcentage);
+void sensoresLCD(int agua, int humedad, int temperatura);
+
+void setupAnimacion();
+void desplazar_dino(int retarder, char *mesage);
 
 #endif

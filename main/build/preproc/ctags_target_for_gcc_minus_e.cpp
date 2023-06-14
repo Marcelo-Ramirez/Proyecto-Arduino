@@ -36,9 +36,13 @@ void setup()
 
     // PANTALLA
     setupLCD();
+    setupAnimacion();
 
     // SONIDO
     setupSonido();
+
+    //Animacion
+    desplazar_dino(400, "iniciando...");
 
     Serial.begin(9600);
 }
@@ -55,10 +59,13 @@ void loop()
     // SERVO
     int anguloActu = anguloActual();
 
+    // LCD
+    sensoresLCD(agua,humedad,temperatura);
+
     // MOTOR AGUA
     if (humedad < 50 && agua < 15)
     {
-        // MOTOR AGUA
+        // ACTIVAR AGUA
         aguaActivado();
     }
 
@@ -71,16 +78,16 @@ void loop()
 
         sonidoActivado();
         // MOTOR SERVO
-        if (temperatura > 30 && anguloActu == 0)
+        if (botonActiv == true && anguloActu == 0)
         {
-            // MOTOR SERVO
+            // ACTIVAR SERVO 0_180
             moverServo0_180();
         }
 
         // MOTOR VENTILADOR
         if (cont == 4 && temperatura > 30)
         {
-            // MOTOR VENTILADOR
+            // ACTIVAR VENTILADOR
             ventiActivado();
         }
     }
@@ -88,4 +95,13 @@ void loop()
     {
         cont = 0;
     }
+    if (botonActiv == true && anguloActu == 0){
+        moverServo0_180();
+    }
+    if (botonActiv == true && anguloActu == 180)
+    {
+        moverServo180_0();
+    }
+
+
 }

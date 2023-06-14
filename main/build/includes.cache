@@ -50,6 +50,11 @@
     "Includepath": null
   },
   {
+    "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\animacion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
     "Sourcefile": "D:\\Mis proyectos\\C++\\Arduino\\Proyecto\\main\\build\\sketch\\src\\Lcd\\lcd.cpp",
     "Include": "",
     "Includepath": null
